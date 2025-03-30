@@ -1,8 +1,16 @@
 public class Narguile {
-        private String rosh = "aluminio";
-        private String essencia = "tutti frutti";
-        private String tpCarvao = "coco";
-        private int qtdCarvao = 1;
+        private String rosh;
+        private String essencia;
+        private String tpCarvao;
+        private int qtdCarvao;
+        //construtor
+        public Narguile(String rosh, String essencia, String tpCarvao,
+        int qtdCarvao){
+            this.rosh = rosh;
+            this.essencia = essencia;
+            this.tpCarvao = tpCarvao;
+            this.qtdCarvao = qtdCarvao;
+        }
         // get e set
         public String getRosh(){
             return this.rosh;
